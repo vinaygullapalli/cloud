@@ -7,12 +7,12 @@ Parameters:
 
   GitHubOwner:
     Type: String
-    Default: shrestha-ajay #replace with your github username
+    Default: vinaygullapalli #replace with your github username
     AllowedPattern: "[A-Za-z0-9-]+"
 
   RepositoryName:
     Type: String
-    Default: cloud-basics4 #replace with your github repository name
+    Default: cloud #replace with your github repository name
     AllowedPattern: "[A-Za-z0-9-]+"
 
   BranchName:
@@ -22,7 +22,7 @@ Parameters:
 
   ApplicationStackName:
     Type: String
-    Default: codepipeline-github-application1
+    Default: codepipeline-github-application11
     AllowedPattern: "[A-Za-z0-9-]+"
 
 
